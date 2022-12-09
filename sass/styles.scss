@@ -136,8 +136,7 @@ h1 {
     &__buttons {
         display: flex;
         justify-content: center;
-        gap: 200px;
-        margin-top: 20px;
+        gap: 150px;
     }
 }
 
@@ -177,6 +176,42 @@ h1 {
         }
     }
 
+    &__p {
+        font-size: $f-size-sm;
+        color: $color4;
+    }
+
+    &__form {
+        display: grid;
+        justify-content: center;
+        background-color: $color1;
+        border-radius: 40px;
+        padding: 3em;
+        width: 50%;
+
+        &__fullname {
+            margin-bottom: 30px;
+
+            &__f-name {
+                display: inline-block;
+            }
+
+            &__l-name {
+                display: inline-block;
+                margin-left: 30px;
+            }
+        }
+
+        &__email {
+            display: block;
+            margin-bottom: 30px;
+        }
+
+        &__texto {
+            display: block;
+        }
+
+    }
 }
 
 
