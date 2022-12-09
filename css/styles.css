@@ -109,6 +109,7 @@ h1 {
 .section {
   padding: 4em;
   margin-top: 5em;
+  /* ---------- Contacto ---------- */
 }
 .section__h2 {
   color: #6CB18C;
@@ -117,9 +118,25 @@ h1 {
 .section__div {
   display: flex;
   justify-content: space-between;
+  /* ---------- Cards | Producto ---------- */
 }
 .section__div__img {
   height: 400px;
+}
+.section__div__cards {
+  display: flex;
+}
+.section__div__cards .card {
+  display: inline-block;
+  margin-right: 2em;
+  border-color: #6CB18C;
+  border-width: 2px;
+}
+.section__div__cards .card-title {
+  color: #6CB18C;
+}
+.section__div__cards .card-text {
+  color: #B17B6C;
 }
 .section__p {
   font-size: 25px;
