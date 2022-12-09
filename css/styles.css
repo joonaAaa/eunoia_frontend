@@ -51,7 +51,7 @@ h1 {
 }
 .flex-container .img__hangingPlant {
   position: absolute;
-  margin-right: 80px;
+  margin-right: 40px;
 }
 
 @media (max-width: 1350px) {
