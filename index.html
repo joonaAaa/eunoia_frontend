@@ -23,8 +23,7 @@
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-                <a href="index.html"><img src="assets/img/manchita.svg" class="navbar__logo"
-                        alt="Logo de la aplicación"></a>
+                <img src="assets/img/manchita.svg" class="navbar__logo" alt="Logo de la aplicación">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -79,6 +78,7 @@
         <!-- Producto -->
         <section class="section" id="producto">
             <h2 class="section__h2">Producto</h2>
+            <p class="section__p">Conoce más sobre las características y funciones de EunoiaMind</p>
             <br>
             <div class="section__div__cards">
                 <div class="card">
@@ -117,6 +117,7 @@
         <!-- Nosotros -->
         <section class="section" id="nosotros">
             <h2 class="section__h2">Nosotros</h2>
+            <p class="section__p">Lee sobre nuestras motivaciones para desarrollar esta aplicación</p>
             <br>
         </section>
 
@@ -125,32 +126,43 @@
             <h2 class="section__h2">Contacto</h2>
             <p class="section__p">¿Tienes alguna duda, sugerencia o problema? ¡Contáctanos!</p>
 
-            <form class="section__form">
-                <div class="section__form__fullname">
-                    <div class="section__form__fullname__f-name">
-                        <label for="f-name">Nombre:</label>
-                        <input type="text" id="f-name" name="f-name">
+            <div class="section__div">
+                <form class="section__form">
+                    <div class="section__form__fullname">
+                        <div class="section__form__fullname__f-name">
+                            <label for="f-name">Nombre:</label>
+                            <input type="text" id="f-name" name="f-name">
+                        </div>
+                        <div class="section__form__fullname__l-name">
+                            <label for="l-name">Apellido:</label>
+                            <input type="text" id="l-name" name="l-name">
+                        </div>
                     </div>
-                    <div class="section__form__fullname__l-name">
-                        <label for="l-name">Apellido:</label>
-                        <input type="text" id="l-name" name="l-name">
+
+                    <div class="section__form__email">
+                        <label for="email">Correo electrónico:</label>
+                        <br>
+                        <input type="email" id="email">
                     </div>
-                </div>
 
-                <div class="section__form__email">
-                    <label for="email">Correo electrónico:</label>
-                    <br>
-                    <input type="email" id="email">
-                </div>
+                    <div class="section__form__motivo">
+                        <label>Motivo:</label>
+                        <select>
+                            <option>Consultas</option>
+                            <option>Sugerencias</option>
+                            <option>Problemas</option>
+                        </select>
+                    </div>
 
-                <div class="section__form__texto">
-                    <label for="textolibre">Example textarea</label>
-                    <br>
-                    <textarea id="textolibre" rows="3"></textarea>
-                </div>
 
-            </form>
+                    <div class="section__form__texto">
+                        <label for="textolibre">Escriba lo que quiera comunicarnos:</label>
+                        <br>
+                        <textarea id="textolibre" rows="3"></textarea>
+                    </div>
 
+                </form>
+            </div>
         </section>
 
         <!-- Footer -->

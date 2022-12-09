@@ -51,12 +51,12 @@ body {
 
 // Elementos individuales del navbar
 .nav-item {
+    text-align: center;
 
     // Links del navbar
     .nav-link {
         color: $color3;
-        margin-left: 20px;
-        margin-right: 20px;
+        width: 160px;
     }
 
     // Elemento seleccionado
@@ -65,7 +65,9 @@ body {
         color: $color3;
         background-color: $color2;
         border-radius: 40px;
+        width: 160px;
     }
+
 }
 
 /* --------------------------------------------- */
@@ -204,30 +206,54 @@ h1 {
     }
 
     /* ---------- Contacto ---------- */
+    &--form {
+        display:flex;
+    }
+
     &__form {
-        display: grid;
         justify-content: center;
+        vertical-align: middle;
         background-color: $color1;
         border-radius: 40px;
         padding: 3em;
         width: 50%;
 
+        label {
+            color: $color3;
+            font-size: $f-size-sm;
+        }
+
+        input {
+            background-color: $color2;
+            border-radius: 15px;
+            border: none;
+            color: $color4;
+            text-align: center;
+            font-size: 22px;
+        }
+
         &__fullname {
-            margin-bottom: 30px;
+            display: flex;
 
             &__f-name {
+                margin-bottom: 2em;
                 display: inline-block;
+                justify-content: start;
             }
 
             &__l-name {
+                margin-bottom: 2em;
                 display: inline-block;
-                margin-left: 30px;
+                justify-content: end;
             }
         }
 
         &__email {
             display: block;
-            margin-bottom: 30px;
+
+            input {
+                width: 440px;
+            }
         }
 
         &__texto {
