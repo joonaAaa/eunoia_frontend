@@ -154,7 +154,7 @@ h1 {
   background-color: #E6FDD3;
   border-radius: 40px;
   padding: 3em;
-  width: 50%;
+  width: 70%;
 }
 .section__form label {
   color: #6CB18C;
@@ -189,6 +189,32 @@ h1 {
 }
 .section__form__texto {
   display: block;
+}
+
+.nav--sidebar {
+  background-color: #E6FDD3;
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  display: flex;
+  padding: 20px;
+  font-size: 25px;
+}
+.nav__avatar {
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
+  justify-content: center;
+  margin: 20px;
+}
+.nav ul.nav__items {
+  height: fit-content;
+  display: block;
+  justify-content: center;
+  list-style: none;
+}
+.nav ul.nav__items .nav__item {
+  margin-bottom: 40px;
 }
 
 /*# sourceMappingURL=styles.css.map */
