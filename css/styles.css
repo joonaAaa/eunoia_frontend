@@ -1,6 +1,3 @@
-@charset "UTF-8";
-/* ---------- Declaración de variables ---------- */
-/* --------------------------------------------- */
 /* ---------- Selectores ---------- */
 * {
   font-family: "Neucha";
@@ -192,29 +189,51 @@ h1 {
 }
 
 .nav--sidebar {
-  background-color: #E6FDD3;
+  padding: 10px;
   height: 100%;
-  width: 200px;
-  position: fixed;
+  width: 20%;
   display: flex;
-  padding: 20px;
-  font-size: 25px;
+  position: fixed;
+  background-color: #E6FDD3;
 }
 .nav__avatar {
-  height: 120px;
-  width: 120px;
+  width: 140px;
+  height: 140px;
   border-radius: 100%;
-  justify-content: center;
-  margin: 40px;
+  margin-left: 20%;
+  margin-top: 10%;
 }
 .nav ul.nav__items {
-  height: fit-content;
-  display: block;
-  justify-content: center;
   list-style: none;
 }
 .nav ul.nav__items .nav__item {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
+}
+.nav ul.nav__items .nav__item__link {
+  text-decoration: none;
+  color: #6CB18C;
+  font-size: 30px;
+}
+.nav ul.nav__items .nav__item__link:hover {
+  background-color: #C8EAC1;
+  border-radius: 40px;
+  width: 160px;
+}
+.nav ul.nav__items .nav__item__icon {
+  height: 40px;
+  width: 40px;
+  stroke: #6CB18C;
+  margin-right: 10px;
+}
+
+.div__page-content {
+  width: 85%;
+  left: 15%;
+  display: inline-block;
+  position: absolute;
+}
+.div__page-content .div__calendar ul {
+  display: grid;
 }
 
 /*# sourceMappingURL=styles.css.map */

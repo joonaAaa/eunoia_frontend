@@ -1,2 +1,5 @@
-@use 'index';
-@use 'home';
+@use 'pages/index';
+@use 'pages/home';
+@use 'pages/calendar';
+
+@use 'layout/sidebar';
