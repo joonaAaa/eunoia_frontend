@@ -1,19 +1,5 @@
 @use '../abstracts/variables';
-@use '../layout/sidebar';
 
-.div__page-content {
-    width: 85%;
-    left: 15%;
-    display: inline-block;
-    position: absolute;
-
-    .div__calendar {
-        
-        ul {
-            display: grid;
-    
-        }
-    }
+.main__page-content {
+    margin-left: 20%;
 }
-
-

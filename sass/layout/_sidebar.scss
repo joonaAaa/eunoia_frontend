@@ -5,7 +5,7 @@
         padding: 10px;
         height: 100%;
         width: 20%;
-        display: flex;
+        display: inline-block;
         position: fixed;
         background-color: variables.$color1;
 
@@ -15,36 +15,41 @@
         width: 140px;
         height: 140px;
         border-radius: 100%;
-        margin-left: 20%;
-        margin-top: 10%;
+        margin-top: 30px;
+        margin-bottom: 2em;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
     }
+}
 
-    ul.nav__items {
-        list-style: none;
 
-        .nav__item {
-            margin-bottom: 30px;
+ul.nav__items {
+    list-style: none;
+    margin-left: 15px;
 
-            &__link {
-                text-decoration: none;
-                color: variables.$color3;
-                font-size: variables.$f-size-md;
+    .nav__item {
+        margin-bottom: 3em;
+        text-align: left;
+        
+        &__link {
+            text-decoration: none;
+            color: variables.$color3;
+            font-size: variables.$f-size-sm;
 
-                &:hover {
-                    background-color: variables.$color2;
-                    border-radius: 40px;
-                    width: 160px;
-                }
-
+            &:hover {
+                background-color: variables.$color2;
+                border-radius: 40px;
+                width: 160px;
             }
 
-            &__icon {
-                height: 40px;
-                width: 40px;
-                stroke: variables.$color3;
-                margin-right: 10px;
-            }
+        }
+
+        &__icon {
+            height: 35px;
+            width: 35px;
+            stroke: variables.$color3;
+            margin-right: 20px;
         }
     }
-
 }
