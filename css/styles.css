@@ -358,9 +358,23 @@ line-height: 1.7;
   justify-self: end;
 }
 
+/* COLORES SLIDER */
 .slider-total{
   background-color: #C8EAC1;
 }
+
 .slider__body--show{
-background-color: #bbe5b3;
-}
+  background-color: #bbe5b3;
+  width: 824px;
+  }
+  
+  /* LOGOS  */
+  .linkedin{
+    width: 50px;
+    margin-right: 200px;
+    opacity: 0.5;
+  }
+  .github{
+  width: 50px;
+  opacity: 0.5;
+  }
